@@ -1,0 +1,72 @@
+body {
+    /* background-image: url("https://www.intrepidtravel.com/adventures/wp-content/uploads/2018/05/Intrepid-Travel-sri-lanka_kandy_night.jpg"); */
+     background-size: cover;
+    /* background-blend-mode:hue;
+    background-color: black; */
+    
+ } 
+.dot{
+    font-size: 150px;
+    color: white;
+     transform: translate(90%,35%);
+     animation: animate 
+           1s linear infinite;
+}
+
+.row {
+    margin-top:0%;
+}
+
+.card {
+    box-shadow: 10px 10px 10px 10px linear-gradient(rgb(26, 1, 255), rgb(33, 255, 70), rgb(218, 7, 7));
+    margin-right: 1%;
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(255, 254, 254);
+    border: 10px;
+     
+}
+
+#txt1 {
+    position: absolute;
+    /* box-shadow: 0px 0px 10px 0px gray; */
+    font-size: 250px;
+    text-align: center;
+    right: 10%;
+    border-radius: 5%;
+
+}
+
+#txt2 {
+    position: absolute;
+    /* box-shadow: 0px 0px 5px 0px gray; */
+    font-size: 250px;
+    text-align: center;
+    right: 10%;
+    border-radius: 5%;
+    
+}
+
+#txt3 {
+    position: absolute;
+    /* box-shadow: 0px 0px 5px 0px gray; */
+    font-size: 250px;
+    text-align: center;
+    right: 10%;
+    border-radius: 5%;
+    
+}
+
+@keyframes animate {
+       0% {
+           opacity: 0;
+       }
+
+       20% {
+           opacity: 10;
+       }
+
+       100% {
+           opacity: 0;
+       }
+   }
+ 

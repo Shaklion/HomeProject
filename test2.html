@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>My clock</title>
+     <link rel="shortcut icon" href="https://toppng.com/uploads/preview/clock-icon-11530957601jn1kmig1z1.png" type="image/x-icon">
+     <!-- CSS only -->
+     <link rel="stylesheet" href="clck.css">
+      <link rel="stylesheet" href="./bootstrap.min.css">
+ </head>
+
+ <body onload="startTime()"></body>
+ <div class="container mt-5">
+     <div class="container-fluid mt-5">
+         <div class="text" style="margin-left: 30%; font-family: 'Ubuntu Mono', monospace;  font-size: 70px; color: white;" >
+              DIGITAL CLOCK 
+         </div>
+
+         <div class="row">
+             <div class="col-md-4">
+                 <div class="card text-left">
+                     <div class="card-body" id="txt1">
+                         <!-- a -->
+                     </div>
+                 </div>
+                 <div class="dot">:</div>
+             </div>
+             <div class="col-md-4">
+                 <div class="card text-left">
+                     <div class="card-body" id="txt2">
+                         <!-- b -->
+                     </div>
+                    
+                 </div> <div class="dot">:</div>
+             </div> 
+             <div class="col-md-4">
+                 <div class="card text-left">
+                     <div class="card-body" id="txt3">
+                         <!-- b -->
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <script src="./clck.js"></script>
+ </body>
+ </html>
